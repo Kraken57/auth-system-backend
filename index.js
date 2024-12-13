@@ -91,7 +91,7 @@ app.post("/todo", auth, async (req, res) => {
     userId,
   });
   res.json({
-    umessage: "Todo created",
+    message: "Todo created",
   });
 });
 
