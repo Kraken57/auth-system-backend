@@ -3,7 +3,7 @@ const JWT_SECRET = ""; //Require a JWT SECRET
 
 function auth(req, res, next) {
   const token = req.headers.token;
-  const decodeInfo = jwt.decode(token, JWT_SECRET);
+  const decodeInfo = jwt.verify(token, JWT_SECRET);
 
   if (decodeInfo) {
     req.userId = decodeInfo.id;
