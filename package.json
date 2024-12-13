@@ -1,0 +1,19 @@
+{
+  "name": "auth-system-backend",
+  "version": "1.0.0",
+  "description": "A secure authentication system with email verification, password hashing, and JWT token generation. Built with Node.js and Express. This backend service supports user signup and signin, password validation with regex, and JWT-based session management for secure and seamless user authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "zod": "^3.24.1"
+  }
+}
